@@ -1,0 +1,28 @@
+/* 3.2- About Section*/
+.about-item{
+    width: 30%;
+    text-align: center;
+    padding: 50px 20px;
+    border: 1px solid var(--gry-8Color);
+   }
+
+   .about-item:hover .about-item-title{
+       color: rgb(253, 253, 253);
+   }
+   .about-item.mg ,.portfolio-item.mg {
+       margin: 0 5%;
+   }
+   .about-item .icon{
+       color:var(--mainColor);
+   }
+   .about-item-title{
+       transition: color 0.5s;
+   }
+     .about-item-desc{
+         line-height: 1.6;
+         color: rgb(177, 177, 177);
+     }
+
+     .about-item-link{
+         color:var(--mainColor);
+     }

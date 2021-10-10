@@ -1,0 +1,44 @@
+/* 3.1- Home section */
+    .Home {
+        height: 100vh;
+        background-image: url(../images/background/background1.webp);
+        background-size: cover;
+        position: relative;
+    }
+  
+    .Home-Containt{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align:center;
+    }
+    .Home #T-H {
+        color:var(--whaitColor);
+        font-size: 2.8rem;   
+    }
+    .Home #p-H {
+        margin: 20px 0;
+        color: var(--whaitColor);
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        min-width: 160px;
+        padding: 15px;
+        border-radius: 5px;
+        border:0;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .Home .btn-s{
+        margin-right: 10px;
+        background-color:var(--whaitColor);
+    }
+
+    .Home .btn-L{
+        background-color: var(--mainColor);
+        color: var(--whaitColor);
+    }

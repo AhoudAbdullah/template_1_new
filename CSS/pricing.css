@@ -1,0 +1,55 @@
+/*  pricing Section */
+.pricing-item{
+    width: 30%;
+    padding: 20px 15px;
+    border: 1px solid var(--wgColor);
+    text-align: center;
+}
+.pricing-item:hover .pricing-item-text{
+    color:var(--mainColor);
+}
+.pricing-item.mg{
+    margin: 0 5%;
+}
+.pricing-item-text{
+    font-size: 17px;
+    color: var(--grayColor);
+    transition: color .5s;
+}
+.pricing-item-preMonth {
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    margin: 20px auto;
+    border: 2px solid var(--mainColor);
+    border-radius:50% ;
+    transition: color .5s;
+}
+.pricing-item-preMonth .dolar{
+    font-size: 50px;
+    
+}
+.pricing-item-preMonth  .month{
+    font-weight: bold;
+    font-size:15px;
+}
+.pricing-item:hover .pricing-item-preMonth {
+   color: var(--whaitColor);
+}
+.pricing-list{
+    list-style: none;
+} 
+.pricing-list li {
+    color: var(--grayColor);
+    line-height: 1.8;
+}
+.pricing-boutton{
+    background: none;
+    border: none;
+    display: block;
+    width: 140px;
+    border: 2px solid var(--blueColor);
+    padding: 10px;
+    margin: 15px auto 0 auto;
+    color: var(--blueColor);
+}

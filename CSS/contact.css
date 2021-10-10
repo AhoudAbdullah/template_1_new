@@ -1,0 +1,67 @@
+
+/* Contact */
+.Contact-item{
+    width: 30%;
+    text-align: center;
+}
+.Contact-item.mg{
+    margin: 0 5%;
+}
+
+.Contact-item i {
+    color:var(--mainColor);
+    font-size: 30px;
+}
+
+.Contact-item span {
+    color: var(--grayColor);
+}
+
+.Contact-form{
+    text-align: center;
+}
+
+
+.Contact-form input ,  .Contact-form textarea{
+    font-size: 16px;
+    border: none;
+    color: var(--gry-8Color);
+    background-color: var(--bg-gray);
+}
+.Contact-form input:focus , .Contact-form textarea:focus {
+    outline: none;
+    border: 1px solid var(--blueColor);
+    border-bottom: 2px solid var(--blueColor);
+    border-radius: 3px;
+}
+
+input::placeholder,textarea::placeholder{
+    color:var(--wgColor);
+    font-size: 16px;
+}
+
+.Contact-form input:focus::placeholder,.contact-form textarea:focus::placeholder{
+    color: var(--gry-8Color)
+}
+
+.Contact-form #name ,.Contact-form #email{
+    width: 33%;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+.Contact-form #subject , .Contact-form textarea{
+    width: 69%;
+    margin-bottom: 20px;
+}
+
+ .Contact-form #send {
+    color:var(--whaitColor);
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+

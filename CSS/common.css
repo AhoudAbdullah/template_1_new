@@ -1,0 +1,21 @@
+.float-left{
+    float: left;
+   }
+.margin{
+    margin: auto;
+}
+.mg-b-10{
+    margin-bottom: 10px;
+}
+.mg-b-20{
+    margin-bottom: 20px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.overflow{
+    overflow: hidden;
+}

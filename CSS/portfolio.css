@@ -1,0 +1,88 @@
+
+     /* 3.3- portfolio Section */
+
+     .portfolio{
+        background-color: var(--bg-gray);
+    }
+    .portfolio-item{
+       width: 32%;
+       height:50%;
+       text-align: center;
+       margin-bottom: 2%;
+       padding: 20px;
+       position: relative;
+    }
+
+    .portfolio-item .layer_content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--blackColor-rgb);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s , visibility 0.5s;
+    }
+      .portfolio-item:hover .layer_content{
+          opacity: 1;
+          visibility: visible;
+      }
+      .layer_content .layer_info{
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 80%;
+          transform: translate(-50% ,-50%);
+      }
+
+        .layer_content .category{
+            color: var(--mainColor);
+            display: block;
+            margin-bottom:5px;
+            position: relative;
+            top:10px;
+            opacity: 0;
+            transition: top 0.5s, opacity 0.5s;
+            transition-delay:0.2s ;
+        }
+        .layer_content .layer_title{
+            font-size: 20px;
+            color: var(--whaitColor);
+            position: relative;
+            top:10px;
+            opacity: 0;
+            transition: top 0.5s, opacity 0.5s;
+            transition-delay:0.3s ;
+        }
+
+        .layer_content a {
+           color: var(--whaitColor);
+           position: relative;
+           top:10px;
+           opacity: 0;
+           transition: top 0.5s, opacity 0.5s;
+           transition-delay:0.3s ;
+        }
+        .layer_content a i {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background-color: var(--mainColor);
+        }
+        .portfolio-item:hover .layer_title,
+        .portfolio-item:hover .layer_content a,
+        .portfolio-item:hover .layer_content .category{
+            top: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+
+    .img{
+       width: 100%;
+       height: 100%;       
+    }
+    .p-mg{
+       margin: 0 2%;
+    }
